@@ -1,0 +1,27 @@
+.button-without-border {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0, 0, 0;
+    -fx-background-radius: 0;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-border-insets: 0;
+    -fx-border-radius: 0;
+}
+
+.label-with-name-developer {
+    -fx-pref-width: 75;
+}
+
+.label-with-title {
+    -fx-font-weight: bold;
+    -fx-padding: 5 5 5 5;
+}
+
+.label-with-time {
+    /* top right bottom left */
+    -fx-padding: 3 5 3 5;
+}
+
+.label-with-separator {
+    -fx-padding: 5 5 5 5;
+}

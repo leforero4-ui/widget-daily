@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<VBox alignment="CENTER_LEFT" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.forest.widget_daily.StopwatchDailyController" stylesheets="@styles.css">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <VBox>
+        <HBox alignment="CENTER">
+            <Label text="PRE-DAILY" styleClass="label-with-title"/>
+        </HBox>
+        <VBox>
+            <HBox>
+                <Label text="Pre-daily" styleClass="label-with-name-developer"/>
+                <Button fx:id="preDailyButton" onAction="#onStartPreDailyButtonClick" styleClass="button-without-border">
+                    <graphic>
+                        <ImageView fitHeight="18" fitWidth="18">
+                            <Image url="@boton-de-play.png"/>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Label fx:id="preDailyLabel" styleClass="label-with-time"/>
+            </HBox>
+        </VBox>
+
+        <Separator/>
+    </VBox>
+
+    <VBox fx:id="vBoxDevelopers">
+        <VBox>
+            <HBox alignment="CENTER">
+                <Label text="FRONT" styleClass="label-with-title"/>
+            </HBox>
+            <VBox fx:id="vBoxFront">
+                <HBox>
+                    <Label text="Alberto" styleClass="label-with-name-developer"/>
+                    <Button fx:id="stopwatchButton1" onAction="#onStartStopwatch1ButtonClick" styleClass="button-without-border">
+                        <graphic>
+                            <ImageView fitHeight="18" fitWidth="18">
+                                <Image url="@boton-de-play.png"/>
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                    <Label fx:id="stopwatchLabel1" styleClass="label-with-time"/>
+                </HBox>
+                <HBox>
+                    <Label text="Lucio" styleClass="label-with-name-developer"/>
+                    <Button fx:id="stopwatchButton2" onAction="#onStartStopwatch2ButtonClick" styleClass="button-without-border">
+                        <graphic>
+                            <ImageView fitHeight="18" fitWidth="18">
+                                <Image url="@boton-de-play.png"/>
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                    <Label fx:id="stopwatchLabel2" styleClass="label-with-time"/>
+                </HBox>
+            </VBox>
+
+            <Separator styleClass="label-with-separator"/>
+        </VBox>
+        <VBox>
+            <HBox alignment="CENTER">
+                <Label text="BACKEND" styleClass="label-with-title"/>
+            </HBox>
+            <VBox fx:id="vBoxBackend">
+                <HBox>
+                    <Label text="David Martins" styleClass="label-with-name-developer"/>
+                    <Button fx:id="stopwatchButton3" onAction="#onStartStopwatch3ButtonClick" styleClass="button-without-border">
+                        <graphic>
+                            <ImageView fitHeight="18" fitWidth="18">
+                                <Image url="@boton-de-play.png"/>
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                    <Label fx:id="stopwatchLabel3" styleClass="label-with-time"/>
+                </HBox>
+                <HBox>
+                    <Label text="Jorge" styleClass="label-with-name-developer"/>
+                    <Button fx:id="stopwatchButton4" onAction="#onStartStopwatch4ButtonClick" styleClass="button-without-border">
+                        <graphic>
+                            <ImageView fitHeight="18" fitWidth="18">
+                                <Image url="@boton-de-play.png"/>
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                    <Label fx:id="stopwatchLabel4" styleClass="label-with-time"/>
+                </HBox>
+                <HBox>
+                    <Label text="Jose Fuentes" styleClass="label-with-name-developer"/>
+                    <Button fx:id="stopwatchButton5" onAction="#onStartStopwatch5ButtonClick" styleClass="button-without-border">
+                        <graphic>
+                            <ImageView fitHeight="18" fitWidth="18">
+                                <Image url="@boton-de-play.png"/>
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                    <Label fx:id="stopwatchLabel5" styleClass="label-with-time"/>
+                </HBox>
+                <HBox>
+                    <Label text="Luis" styleClass="label-with-name-developer"/>
+                    <Button fx:id="stopwatchButton6" onAction="#onStartStopwatch6ButtonClick" styleClass="button-without-border">
+                        <graphic>
+                            <ImageView fitHeight="18" fitWidth="18">
+                                <Image url="@boton-de-play.png"/>
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                    <Label fx:id="stopwatchLabel6" styleClass="label-with-time"/>
+                </HBox>
+            </VBox>
+
+            <Separator styleClass="label-with-separator"/>
+        </VBox>
+    </VBox>
+
+    <VBox>
+        <HBox alignment="CENTER">
+            <Label text="TL Y PO" styleClass="label-with-title"/>
+        </HBox>
+        <VBox>
+            <HBox>
+                <Label text="David Salas" styleClass="label-with-name-developer"/>
+                <Button fx:id="stopwatchButton7" onAction="#onStartStopwatch7ButtonClick" styleClass="button-without-border">
+                    <graphic>
+                        <ImageView fitHeight="18" fitWidth="18">
+                            <Image url="@boton-de-play.png"/>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Label fx:id="stopwatchLabel7" styleClass="label-with-time"/>
+            </HBox>
+            <HBox>
+                <Label text="Diego" styleClass="label-with-name-developer"/>
+                <Button fx:id="stopwatchButton8" onAction="#onStartStopwatch8ButtonClick" styleClass="button-without-border">
+                    <graphic>
+                        <ImageView fitHeight="18" fitWidth="18">
+                            <Image url="@boton-de-play.png"/>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Label fx:id="stopwatchLabel8" styleClass="label-with-time"/>
+            </HBox>
+            <HBox>
+                <Label text="Alvaro" styleClass="label-with-name-developer"/>
+                <Button fx:id="stopwatchButton9" onAction="#onStartStopwatch9ButtonClick" styleClass="button-without-border">
+                    <graphic>
+                        <ImageView fitHeight="18" fitWidth="18">
+                            <Image url="@boton-de-play.png"/>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Label fx:id="stopwatchLabel9" styleClass="label-with-time"/>
+            </HBox>
+        </VBox>
+
+        <Separator styleClass="label-with-separator"/>
+
+        <HBox alignment="CENTER">
+            <Label text="INCIDENCIAS Y METAS" styleClass="label-with-title"/>
+        </HBox>
+        <VBox>
+            <HBox>
+                <Label text="Incidencias" styleClass="label-with-name-developer"/>
+                <Button fx:id="stopwatchButton10" onAction="#onStartStopwatch10ButtonClick" styleClass="button-without-border">
+                    <graphic>
+                        <ImageView fitHeight="18" fitWidth="18">
+                            <Image url="@boton-de-play.png"/>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Label fx:id="stopwatchLabel10" styleClass="label-with-time"/>
+            </HBox>
+            <HBox>
+                <Label text="Metas" styleClass="label-with-name-developer"/>
+                <Button fx:id="stopwatchButton11" onAction="#onStartStopwatch11ButtonClick" styleClass="button-without-border">
+                    <graphic>
+                        <ImageView fitHeight="18" fitWidth="18">
+                            <Image url="@boton-de-play.png"/>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Label fx:id="stopwatchLabel11" styleClass="label-with-time"/>
+            </HBox>
+        </VBox>
+
+        <Separator/>
+
+        <VBox>
+            <HBox>
+                <Button fx:id="musicButton" onAction="#onStopMusicButtonClick" styleClass="button-without-border">
+                    <graphic>
+                        <ImageView fitHeight="18" fitWidth="18">
+                            <Image url="@musica.png"/>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button fx:id="pauseStopwatchButton" disable="true" onAction="#onPauseStopwatchButtonClick" styleClass="button-without-border">
+                    <graphic>
+                        <ImageView fitHeight="18" fitWidth="18">
+                            <Image url="@boton-de-pausa.png"/>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button onAction="#onStopStopwatchButtonClick" styleClass="button-without-border">
+                    <graphic>
+                        <ImageView fitHeight="18" fitWidth="18">
+                            <Image url="@parada.png"/>
+                        </ImageView>
+                    </graphic>
+                </Button>
+            </HBox>
+            <HBox>
+                <TextField fx:id="secondsInputField" prefWidth="50" styleClass="label-with-time">
+                </TextField>
+                <Label fx:id="timeLabel" styleClass="label-with-time"/>
+            </HBox>
+        </VBox>
+    </VBox>
+</VBox>
