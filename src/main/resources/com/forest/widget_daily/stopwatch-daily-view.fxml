@@ -44,7 +44,7 @@
             </HBox>
             <VBox fx:id="vBoxFront">
                 <HBox>
-                    <Label text="Alberto" styleClass="label-with-name-developer"/>
+                    <Label text="Developer front NN" styleClass="label-with-name-developer"/>
                     <Button fx:id="stopwatchButton1" onAction="#onStartStopwatch1ButtonClick" styleClass="button-without-border">
                         <graphic>
                             <ImageView fitHeight="18" fitWidth="18">
@@ -55,7 +55,7 @@
                     <Label fx:id="stopwatchLabel1" styleClass="label-with-time"/>
                 </HBox>
                 <HBox>
-                    <Label text="Lucio" styleClass="label-with-name-developer"/>
+                    <Label text="Developer front BB" styleClass="label-with-name-developer"/>
                     <Button fx:id="stopwatchButton2" onAction="#onStartStopwatch2ButtonClick" styleClass="button-without-border">
                         <graphic>
                             <ImageView fitHeight="18" fitWidth="18">
@@ -75,7 +75,7 @@
             </HBox>
             <VBox fx:id="vBoxBackend">
                 <HBox>
-                    <Label text="David Martins" styleClass="label-with-name-developer"/>
+                    <Label text="Developer back EE" styleClass="label-with-name-developer"/>
                     <Button fx:id="stopwatchButton3" onAction="#onStartStopwatch3ButtonClick" styleClass="button-without-border">
                         <graphic>
                             <ImageView fitHeight="18" fitWidth="18">
@@ -86,7 +86,7 @@
                     <Label fx:id="stopwatchLabel3" styleClass="label-with-time"/>
                 </HBox>
                 <HBox>
-                    <Label text="Jorge" styleClass="label-with-name-developer"/>
+                    <Label text="Developer back CC" styleClass="label-with-name-developer"/>
                     <Button fx:id="stopwatchButton4" onAction="#onStartStopwatch4ButtonClick" styleClass="button-without-border">
                         <graphic>
                             <ImageView fitHeight="18" fitWidth="18">
@@ -97,7 +97,7 @@
                     <Label fx:id="stopwatchLabel4" styleClass="label-with-time"/>
                 </HBox>
                 <HBox>
-                    <Label text="Jose Fuentes" styleClass="label-with-name-developer"/>
+                    <Label text="Developer back OO" styleClass="label-with-name-developer"/>
                     <Button fx:id="stopwatchButton5" onAction="#onStartStopwatch5ButtonClick" styleClass="button-without-border">
                         <graphic>
                             <ImageView fitHeight="18" fitWidth="18">
@@ -108,7 +108,7 @@
                     <Label fx:id="stopwatchLabel5" styleClass="label-with-time"/>
                 </HBox>
                 <HBox>
-                    <Label text="Luis" styleClass="label-with-name-developer"/>
+                    <Label text="Developer back PP" styleClass="label-with-name-developer"/>
                     <Button fx:id="stopwatchButton6" onAction="#onStartStopwatch6ButtonClick" styleClass="button-without-border">
                         <graphic>
                             <ImageView fitHeight="18" fitWidth="18">
@@ -130,7 +130,7 @@
         </HBox>
         <VBox>
             <HBox>
-                <Label text="David Salas" styleClass="label-with-name-developer"/>
+                <Label text="TL MM" styleClass="label-with-name-developer"/>
                 <Button fx:id="stopwatchButton7" onAction="#onStartStopwatch7ButtonClick" styleClass="button-without-border">
                     <graphic>
                         <ImageView fitHeight="18" fitWidth="18">
@@ -141,7 +141,7 @@
                 <Label fx:id="stopwatchLabel7" styleClass="label-with-time"/>
             </HBox>
             <HBox>
-                <Label text="Diego" styleClass="label-with-name-developer"/>
+                <Label text="TL RR" styleClass="label-with-name-developer"/>
                 <Button fx:id="stopwatchButton8" onAction="#onStartStopwatch8ButtonClick" styleClass="button-without-border">
                     <graphic>
                         <ImageView fitHeight="18" fitWidth="18">
@@ -152,7 +152,7 @@
                 <Label fx:id="stopwatchLabel8" styleClass="label-with-time"/>
             </HBox>
             <HBox>
-                <Label text="Alvaro" styleClass="label-with-name-developer"/>
+                <Label text="PO YY" styleClass="label-with-name-developer"/>
                 <Button fx:id="stopwatchButton9" onAction="#onStartStopwatch9ButtonClick" styleClass="button-without-border">
                     <graphic>
                         <ImageView fitHeight="18" fitWidth="18">
